@@ -1050,10 +1050,6 @@ nav#site-navigation.main-navigation {
   padding-left: 30px;
 }
 
-.page-id-2746 .main-navigation ul, .page-id-2746 .site-branding, .page-id-2746 .navWrapper {
-	display: none;
-}
-
 .error404 .main-navigation ul, .error404 .site-branding, .error404 .navWrapper {
 	display: none;
 }
@@ -1070,10 +1066,6 @@ nav#site-navigation.main-navigation {
 
 #footer-row {
 	display: none;
-}
-
-body.page-id-2746 {
-	background-color: #000;
 }
 
 /**
@@ -1468,10 +1460,6 @@ ul.text-animation, ol.text-animation {
 	color: #fff;
 }}
 
-.page-id-2746 .small-text {
-	color: #fff;
-}
-
 .small-text {
 	font-size: 13px;
 	text-transform: uppercase;
@@ -1514,10 +1502,6 @@ ul.text-animation, ol.text-animation {
 	100%{
 		width: 100%;
 	}
-}
-
-.page-id-2746 .hello {
-	color: #fff;
 }
 
 @media only screen and (min-width: 600px) {
@@ -1612,10 +1596,6 @@ ul.text-animation, ol.text-animation {
 	padding-bottom: 15px;
 }
 
-.page-id-2746 .social-links a {
-	color: #fff;
-}
-
 .social-links a {
     width: 25px;
     height: 25px;
@@ -1656,10 +1636,6 @@ ul.text-animation, ol.text-animation {
 	padding: 40px 0 40px 0;
 }
 
-.page-id-2746 #svg{
-filter: invert(53%) sepia(64%) saturate(2981%) hue-rotate(85deg) brightness(126%) contrast(121%);
-}
-
 @media only screen and (min-width: 600px) {
 #svg{
     position: absolute;
@@ -1681,10 +1657,6 @@ filter: invert(53%) sepia(64%) saturate(2981%) hue-rotate(85deg) brightness(126%
     margin: 0 auto;
 	filter: grayscale(100%) brightness(70%) contrast(2);
 }}
-
-.page-id-2746 #svg:hover{
-    filter:  brightness(0) invert(1);
-}
 
 #svg:hover{
 filter: invert(53%) sepia(64%) saturate(2981%) hue-rotate(85deg) brightness(126%) contrast(121%);
@@ -1834,42 +1806,42 @@ body.error404:before, body.error404:after {
 
 @font-face {
   font-family: FB;
-  src: url(https://davisgary.com/fonts/FormulaCondensed-Bold.otf);
+  src: url(/fonts/FormulaCondensed-Bold.otf);
   font-weight: normal;
 }
 
 @font-face {
   font-family: FBL;
-  src: url(https://davisgary.com/fonts/FormulaCondensed-Light.otf);
+  src: url(/fonts/FormulaCondensed-Light.otf);
   font-weight: normal;
 }
 
 @font-face {
   font-family: NML;
-  src: url(https://davisgary.com/fonts/NeueMontreal-Light.otf);
+  src: url(/fonts/NeueMontreal-Light.otf);
   font-weight: normal;
 }
 
 @font-face {
   font-family: NM;
-  src: url(https://davisgary.com/fonts/NeueMontreal-Regular.otf);
+  src: url(/fonts/NeueMontreal-Regular.otf);
   font-weight: normal;
 }
 
 @font-face {
   font-family: NMB;
-  src: url(https://davisgary.com/fonts/NeueMontreal-Bold.otf);
+  src: url(/fonts/NeueMontreal-Bold.otf);
   font-weight: normal;
 }
 
 @font-face {
   font-family: ME-R;
-  src: url(https://davisgary.com/fonts/MonumentExtended-Regular.otf);
+  src: url(/fonts/MonumentExtended-Regular.otf);
   font-weight: normal;
 }
 
 @font-face {
   font-family: ME-B;
-  src: url(https://davisgary.com/fonts/MonumentExtended-Ultrabold.otf);
+  src: url(/fonts/MonumentExtended-Ultrabold.otf);
   font-weight: normal;
 }
